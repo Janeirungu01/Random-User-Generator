@@ -1,4 +1,4 @@
-import faker from "@faker-js/faker";
+import { faker } from "@faker-js/faker";
 
 export class Company {
     cName: string
@@ -16,4 +16,5 @@ export class Company {
             lng: parseFloat(faker.address.longitude())
         }
     }
+
 }
